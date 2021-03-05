@@ -1,0 +1,56 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+
+}
+html{
+    font-size: 62.5%;
+
+}
+
+h1{
+    font-size: 5rem;
+}
+.main-content{
+    margin: 10rem;
+}
+
+.input-number{
+    margin: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    border: solid;
+    padding: 1rem;
+}
+
+.input{
+    margin-top: 0.5rem;
+    width: 50%;
+}
+
+.label{
+    margin: 1rem;  
+    font-size: 2rem;  
+}
+.button{
+    margin: 1rem;
+    border-radius: 10px;
+    margin-left:10px;
+    padding: 1rem;
+    background-color: blue;
+    color: white;
+    font-size: 1.7rem;
+}
+
+.cuadro{
+    width: 10rem;
+    height: 10rem;
+    margin: 0.2rem;
+}
+
+.grafico{
+    display: flex;
+    flex-direction: row;
+}

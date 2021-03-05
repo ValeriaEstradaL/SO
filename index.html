@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Proyecto SO</title>
+    <link rel="stylesheet" href="./dist/css/style.css" />
+    <script src="./dist/js/myScript.js"></script>
+  </head>
+  <body>
+    <main class="main-content">
+        <h1>Algoritmos de planificación de procesos</h1>
+        <section>
+            <div class="input-number">
+            <label class="label" for="number">Número de proceso</label>
+            <input type="number" name="number" id="number" />
+            <label class="label" for="ordenamiento">Tipo de ordenamiento</label>
+            <select name="ordenamiento" id="ordenamiento">
+                <option value="">Seleccione el ordenamiento</option>
+              <option value="roundRobin">Round Robin</option>
+              <option value="prioridad">Prioridad</option>
+              <option value="llegada">Llegada</option>
+              <option value="masCorto">Más corto primero</option>
+            </select>
+            <button class="button" onclick="generarInputs()">Generar</button>
+          </div>
+        </section>
+      <div class="input-number" id="input-number"></div>
+      <div class="grafico" id="grafico" ></div>
+    </main>
+  </body>
+</html>
